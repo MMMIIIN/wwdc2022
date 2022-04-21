@@ -1,0 +1,15 @@
+ 
+<svg style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" viewBox="0 0 900 600">
+
+<defs></defs>
+<g id="레이어 1">
+<path d="M0+0L900+0L900+0L900+600L900+600L0+600L0+600L0+0L0+0Z" opacity="1" fill="#da251d"></path>
+<g opacity="1">
+<path d="M391.778+300.596L450.457+120L509.135+300.596L391.778+300.596Z" fill-rule="evenodd" fill="#ffff00" opacity="1"></path>
+<path d="M497.928+335.086L344.305+446.7L402.985+266.105L497.928+335.086Z" fill-rule="evenodd" fill="#ffff00" opacity="1"></path>
+<path d="M432.324+356.402L278.7+244.789L468.59+244.789L432.324+356.402Z" fill-rule="evenodd" fill="#ffff00" opacity="1"></path>
+<path d="M432.324+244.789L622.213+244.789L468.59+356.402L432.324+244.789Z" fill-rule="evenodd" fill="#ffff00" opacity="1"></path>
+<path d="M497.928+266.105L556.608+446.7L402.985+335.086L497.928+266.105Z" fill-rule="evenodd" fill="#ffff00" opacity="1"></path>
+</g>
+</g>
+</svg>

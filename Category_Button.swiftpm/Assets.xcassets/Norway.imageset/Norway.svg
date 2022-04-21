@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="727.273" viewBox="0 0 1000 727.273" version="1.1">
+  <title id="title31">Flag of Norway</title>
+  <rect width="1000" height="727.27277" fill="#ba0c2f" id="rect33" x="0" y="0"></rect>
+  <g fill="#ffffff" transform="scale(45.454546)">
+    <rect width="4" height="16" x="6" id="rect35" y="0"></rect>
+    <rect width="22" height="4" y="6" id="rect37" x="0"></rect>
+  </g>
+  <g fill="#00205b" transform="scale(45.454546)">
+    <rect width="2" height="16" x="7" id="rect41" y="0"></rect>
+    <rect width="22" height="2" y="7" id="rect43" x="0"></rect>
+  </g>
+</svg>
