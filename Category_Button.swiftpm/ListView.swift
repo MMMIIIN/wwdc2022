@@ -8,7 +8,7 @@ struct ListView: View {
 
     var body: some View {
         VStack {
-            CategoryScroll(currentIndex: $currentIndex, continentList: $continentList)
+            CategoryScrollView(currentIndex: $currentIndex, continentList: $continentList)
             CountryListView(currentIndex: $currentIndex, continentList: $continentList)
         }
             .navigationBarTitleDisplayMode(.inline)
@@ -22,6 +22,6 @@ struct CustomGroupBox: GroupBoxStyle {
             configuration.label
             configuration.content
         }
-        .padding(.vertical, 20)
+            .padding(.vertical, 20)
     }
 }

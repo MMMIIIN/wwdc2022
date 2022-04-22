@@ -16,7 +16,7 @@ extension View {
     }
 }
 
-struct CategoryScroll: View {
+struct CategoryScrollView: View {
     @Binding var currentIndex: Int
     @Binding var continentList: [String]
 

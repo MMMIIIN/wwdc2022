@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct MyApp: App {
+struct CountryApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
