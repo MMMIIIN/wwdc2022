@@ -2,7 +2,6 @@ import SwiftUI
 
 struct ListView: View {
     var continent: String
-
     @Binding var currentIndex: Int
     @Binding var continentList: [String]
 

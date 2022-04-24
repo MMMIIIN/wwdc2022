@@ -20,7 +20,7 @@ struct MainView: View {
                         .font(.system(size: 35))
                         .frame(width: 300, height: 300)
                         .background(RoundedRectangle(cornerRadius: 20)
-                            .fill(.black))
+                            .fill(.blue))
                     NavigationLink(destination: ListView(continent: value, currentIndex: $currentIndex, continentList: $continentList),
                         isActive: $isListViewActive)
                     { EmptyView() }

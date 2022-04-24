@@ -1,31 +1,28 @@
 import SwiftUI
 
 struct CountryInfoView: View {
-    var countryName: String
-    var countryURL: String
     var countryInfo: Country
     
     var body: some View {
         VStack(alignment: .leading) {
-            Image(countryURL)
+            Image(countryInfo.imageURL)
                 .resizable()
                 .scaledToFit()
-            Text("Capital : \(countryInfo.capital)")
-            Text("Population : \(countryInfo.population)")
-            Text("Area : \(countryInfo.area)km²")
+            Text("📍 Capital : \(countryInfo.capital)")
+            Text("👥 Population : \(countryInfo.population) people")
+            Text("🌏 Area : \(countryInfo.area)km²")
             HStack {
-                Text("Language :")
+                Text("🔠 Language :")
                 ForEach(countryInfo.language, id: \.self) {
                     info in
                     Text(info)
                 }
             }
-            
-            Text("Currency : \(countryInfo.currency)")
+            Text("💵 Currency : \(countryInfo.currency)")
             Spacer()
         }
         .font(.system(size: 30))
         .padding()
-        .navigationBarTitle(Text(countryName), displayMode: .large)
+        .navigationBarTitle(Text(countryInfo.name), displayMode: .large)
     }
 }

@@ -27,8 +27,14 @@ struct CategoryScrollView: View {
                     Button(action: {
                         currentIndex = continentList.firstIndex(of: value)!
                     }) {
-                        continentList.firstIndex(of: value)! == currentIndex ? Text(value).asCategoryModifier().foregroundColor(.white).background(RoundedRectangle(cornerRadius: 30).fill(.blue))
-                        : Text(value).asCategoryModifier().foregroundColor(.blue).background(RoundedRectangle(cornerRadius: 30).fill(.white))
+                        continentList.firstIndex(of: value)! == currentIndex ? Text(value)
+                            .asCategoryModifier()
+                            .foregroundColor(.white)
+                            .background(RoundedRectangle(cornerRadius: 30).fill(.blue))
+                        : Text(value)
+                            .asCategoryModifier()
+                            .foregroundColor(.blue)
+                            .background(RoundedRectangle(cornerRadius: 30).fill(.white))
                     }
                         .padding(EdgeInsets(.init(top: 5, leading: 10, bottom: 5, trailing: 10)))
                 }
