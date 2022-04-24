@@ -8,15 +8,15 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "Category_Button",
+    name: "Categor Button",
     platforms: [
         .iOS("15.2")
     ],
     products: [
         .iOSApplication(
-            name: "Category_Button",
+            name: "Categor Button",
             targets: ["AppModule"],
-            bundleIdentifier: "mingwan.Category-Button",
+            bundleIdentifier: "mingwan.CategoryButton",
             teamIdentifier: "HF8GHZB58X",
             displayVersion: "1.0",
             bundleVersion: "1",

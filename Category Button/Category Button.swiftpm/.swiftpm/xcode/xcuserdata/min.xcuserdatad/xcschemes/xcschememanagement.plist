@@ -4,15 +4,30 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Category_Button.xcscheme_^#shared#^_</key>
+		<key>Categor Button.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Category Button.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Category_Button.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>AppModule</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>Categor Button</key>
 		<dict>
 			<key>primary</key>
 			<true/>

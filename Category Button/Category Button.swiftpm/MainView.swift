@@ -18,7 +18,7 @@ struct MainView: View {
                     Text(value)
                         .foregroundColor(.white)
                         .font(.system(size: 35))
-                        .frame(width: 300, height: 300)
+                        .frame(width: 250, height: 250)
                         .background(RoundedRectangle(cornerRadius: 20)
                             .fill(.blue))
                     NavigationLink(destination: ListView(continent: value, currentIndex: $currentIndex, continentList: $continentList),
