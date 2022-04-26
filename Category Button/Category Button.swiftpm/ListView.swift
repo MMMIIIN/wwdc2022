@@ -14,13 +14,3 @@ struct ListView: View {
             .navigationTitle("continentList")
     }
 }
-
-struct CustomGroupBox: GroupBoxStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        VStack(alignment: .leading) {
-            configuration.label
-            configuration.content
-        }
-            .padding(.vertical, 20)
-    }
-}
